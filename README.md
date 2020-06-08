@@ -9,3 +9,4 @@
 * 05) < Random Pick with Weight >  
 * 06) Queue Reconstruction by Height  
 * 07) Coin Change 2  
+* 08) Power of Two  
