@@ -11,3 +11,4 @@
 * 07) Coin Change 2  
 * 08) Power of Two  
 * 09) Is Subsequence  
+* 10) Search Insert Position  
