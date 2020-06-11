@@ -19,6 +19,7 @@ Could you come up with a one-pass algorithm using only constant space?
 */
 
 
+// Two pass Solution
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -37,5 +38,23 @@ public:
             nums[i] = 1;
         for (int i=r+w; i<nums.size(); ++i)
             nums[i] = 2;
+    }
+};
+
+// One pass Solution 
+class Solution {
+public:
+    void sortColors(vector<int>& nums) {
+        int lp=0, mp=0, rp=nums.size()-1;
+        while (mp <= rp) {
+            int num = nums[mp];
+            if (num == 0) {
+                swap(nums[lp++], nums[mp++]);
+            } else if (num == 2) {
+                swap(nums[mp], nums[rp--]);
+            } else {
+                ++mp;
+            }
+        }
     }
 };
