@@ -12,4 +12,8 @@
 * 08) Power of Two  
 * 09) Is Subsequence  
 * 10) Search Insert Position  
-* 11) Sort Colors   
+* 11) Sort Colors  
+* 12) < Insert Delete GetRandom >
+* 13) < Largest Divisible Subset >
+* 14) < Cheapest Flights Within K Stops >
+* 15) Search in a Binary Search Tree   
