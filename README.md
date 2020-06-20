@@ -19,4 +19,6 @@
 * 15) Search in a Binary Search Tree   
 * 16) Validate IP Address  
 * 17) Surrounded Regions 
-* 18) H-Index II   
+* 18) H-Index II  
+* 19) < Longest Duplicate Substring >
+* 20) Permutation Sequence   
