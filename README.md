@@ -21,4 +21,6 @@
 * 17) Surrounded Regions 
 * 18) H-Index II  
 * 19) < Longest Duplicate Substring >
-* 20) Permutation Sequence   
+* 20) Permutation Sequence  
+* 21) Dungeon Game  
+* 22) Single Number II   
