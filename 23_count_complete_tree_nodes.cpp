@@ -46,3 +46,24 @@ public:
         return cnt;
     }
 };
+
+
+// O(log(n)^2) solution - Exploiting the complete binary tree property
+class Solution {
+public:
+    int countNodes(TreeNode* root) {
+        if (!root) return 0;
+        int lh = 0, rh = 0;
+        TreeNode* lst = root, *rst = root;
+        while (lst) {
+            ++lh;
+            lst = lst->left;
+        }
+        while (rst) {
+            ++rh;
+            rst = rst->right;
+        }
+        if (lh == rh) return (1 << rh) - 1;
+        return 1 + countNodes(root->left) + countNodes(root->right);
+    }
+};
