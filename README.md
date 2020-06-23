@@ -23,4 +23,5 @@
 * 19) < Longest Duplicate Substring >
 * 20) Permutation Sequence  
 * 21) Dungeon Game  
-* 22) Single Number II   
+* 22) Single Number II  
+* 23) Count Complete Tree Nodes   
