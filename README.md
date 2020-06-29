@@ -29,3 +29,5 @@
 * 25) Find the Duplicate Number  
 * 26) Sum Root to Leaf Numbers  
 * 27) Perfect Squares  
+* 28) < Reconstruct Itinerary >  
+* 29) Unique Paths  
